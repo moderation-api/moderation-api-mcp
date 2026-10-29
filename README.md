@@ -1,3 +1,5 @@
+<img src="assets/logo.png" alt="Moderation API" width="96" height="96">
+
 # Moderation API MCP Server
 
 Let AI agents run your [Moderation API](https://moderationapi.com) account: work through review queues, investigate authors, tune policies and wordlists, respond to incidents and report on how moderation is going.
