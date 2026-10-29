@@ -1,0 +1,19 @@
+{
+  "name": "moderation-api",
+  "version": "1.0.0",
+  "description": "Let AI agents run your Moderation API account: review queues, author checks, policy tuning, incident response and moderation reports.",
+  "homepage": "https://moderationapi.com",
+  "repository": "https://github.com/moderation-api/moderation-api-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "content-moderation",
+    "trust-and-safety",
+    "review-queue",
+    "moderation"
+  ],
+  "author": {
+    "name": "Moderation API",
+    "url": "https://moderationapi.com"
+  }
+}
