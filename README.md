@@ -54,7 +54,9 @@ Or install the [plugin](https://docs.moderationapi.com/ai/overview), which adds 
 
 ### Claude and Claude Desktop
 
-Open **Settings → Connectors → Add custom connector**, and enter `https://mcp.moderationapi.com/mcp`.
+Open the [Moderation API connector](https://claude.ai/customize/connectors/id/moderation-api) in the Claude directory and click **Connect**.
+
+Or open **Settings → Connectors → Add custom connector**, and enter `https://mcp.moderationapi.com/mcp`.
 
 ### ChatGPT and Codex
 
@@ -114,6 +116,7 @@ See [Build with AI agents](https://docs.moderationapi.com/ai/overview).
 
 - [Documentation](https://docs.moderationapi.com/ai/mcp)
 - [Moderation API](https://moderationapi.com)
+- [Claude connector](https://claude.ai/customize/connectors/id/moderation-api)
 - [ChatGPT plugin](https://chatgpt.com/plugins/plugin_asdk_app_6af1a0764cfc8191947efb344ca5e5d9)
 - [MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.moderationapi): `com.moderationapi/moderation-api`
 
