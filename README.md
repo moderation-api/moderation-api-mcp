@@ -4,7 +4,7 @@
 
 Let AI agents run your [Moderation API](https://moderationapi.com) account: work through review queues, investigate authors, tune policies and wordlists, respond to incidents and report on how moderation is going.
 
-This is a hosted (remote) [Model Context Protocol](https://modelcontextprotocol.io) server. Connect Claude, Cursor or any other MCP client to:
+This is a hosted (remote) [Model Context Protocol](https://modelcontextprotocol.io) server. Connect Claude, ChatGPT, Cursor or any other MCP client to:
 
 ```
 https://mcp.moderationapi.com/mcp
@@ -54,7 +54,13 @@ Or install the [plugin](https://docs.moderationapi.com/ai/overview), which adds 
 
 ### Claude and Claude Desktop
 
-Open **Settings → Connectors → Add custom connector**, and enter `https://mcp.moderationapi.com/mcp`.
+Open the [Moderation API connector](https://claude.ai/customize/connectors/id/moderation-api) in the Claude directory and click **Connect**.
+
+Or open **Settings → Connectors → Add custom connector**, and enter `https://mcp.moderationapi.com/mcp`.
+
+### ChatGPT and Codex
+
+Open the [Moderation API plugin](https://chatgpt.com/plugins/plugin_asdk_app_6af1a0764cfc8191947efb344ca5e5d9) in the ChatGPT directory and click **Install plugin**. The plugin adds the MCP server and the setup skill together. In Codex, the setup skill can also add moderation to your app's code.
 
 ### Cursor
 
@@ -110,6 +116,8 @@ See [Build with AI agents](https://docs.moderationapi.com/ai/overview).
 
 - [Documentation](https://docs.moderationapi.com/ai/mcp)
 - [Moderation API](https://moderationapi.com)
+- [Claude connector](https://claude.ai/customize/connectors/id/moderation-api)
+- [ChatGPT plugin](https://chatgpt.com/plugins/plugin_asdk_app_6af1a0764cfc8191947efb344ca5e5d9)
 - [MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.moderationapi): `com.moderationapi/moderation-api`
 
 ## License
